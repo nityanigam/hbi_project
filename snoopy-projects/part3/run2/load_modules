@@ -1,0 +1,26 @@
+##module load impi/2021.4.0 
+##module purge
+##module load gnu12/12.2.0 
+##module load openmpi4/4.1.4
+##module load fftw/3.3.10
+##export FFTPATH=/opt/ohpc/pub/libs/gnu12/openmpi4/fftw/3.3.10
+##module purge
+##module load gnu12/12.4.0
+##module load openmpi4/4.1.6
+##module load fftw/3.3.10
+##export FFTPATH=/opt/ohpc/pub/libs/gnu12/openmpi4/fftw/3.3.10
+
+## Clean any previously loaded modules
+module purge
+
+## Load working compiler and MPI stack
+module load openmpi/5.0.3/gcc/xs76solb
+
+## Load FFTW built with that MPI+GCC stack
+module load fftw/3.3.10/gcc/openmpi/uco6ynba
+
+## Set FFTW path environment variable
+export FFTPATH=$EBROOTFFTW
+
+## Confirm what’s loaded
+module list

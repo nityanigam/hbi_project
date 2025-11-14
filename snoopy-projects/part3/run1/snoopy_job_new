@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -J snoopy_job_new
+#SBATCH -o job.%j.out
+#SBATCH -e job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --ntasks-per-node=64
+#SBATCH --cpus-per-task=1
+#SBATCH --time=08:00:00
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=nn339@cam.ac.uk
+
+# Load environment
+source ~/hbi_project/snoopy-projects/part3/run1/load_modules
+
+# Go to run directory
+cd ~/hbi_project/snoopy-projects/part3/run1
+
+# Run Snoopy with MPI
+srun ./snoopy

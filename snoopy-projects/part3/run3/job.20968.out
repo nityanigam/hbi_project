@@ -1,0 +1,82 @@
+Loading openmpi/5.0.3/gcc/xs76solb
+  Loading requirement: glibc/2.35/gcc/spmhgmal gcc-runtime/11.4.0/gcc/3i5fbkgx
+    libiconv/1.17/gcc/khtmke4d xz/5.4.6/gcc/7qem4mhi zlib-ng/2.1.6/gcc/6ebiyxtk
+    libxml2/2.10.3/gcc/ptytn4do cuda/12.6.3/gcc/bxp4amlg
+    libpciaccess/0.17/gcc/e3tqi5gi ncurses/6.5/gcc/7gzqeyl6
+    oneapi-level-zero/1.14/gcc/z7mppum4 hwloc/2.9.1/gcc/5waydecg
+    openssl/3.3.0/gcc/gfkecta4 libevent/2.1.12/gcc/guzhqxlv
+    numactl/2.0.14/gcc/lxgavhqp bzip2/1.0.8/gcc/crdwcjpp pigz/2.8/gcc/sablexs5
+    zstd/1.5.6/gcc/r5of3o6o tar/1.34/gcc/dsvgixmx gettext/0.22.5/gcc/yq5p5vmt
+    krb5/1.20.1/gcc/wl7j2ovc libedit/3.1-20230828/gcc/yottz4z4
+    libxcrypt/4.4.35/gcc/2qdqtnqa openssh/9.7p1/gcc/6jr5iebe
+    slurm/24.05.6/gcc/n63hh54c
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Nov 14 2025 at 11:09:08
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/home/nn339/hbi_project/snoopy-data/part3/run3.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+Using MPI with 1 process.
+Using OpenMP with 8 threads.
+(NX,NY,NZ)=	(32,32,32)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	19200.000000
+
+Vertical Boussinesq
+Reynolds_th=	1.000000
+N2=		0.000000
+OmegaT2=	1.000000
+Reynolds_ani=	6400.000000
+
+MHD enabled
+Reynolds_m=	38400.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	1.000000
+Toutput_time=	0.100000
+Toutput_flow=	50.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/home/nn339/hbi_project/snoopy-data/part3/run3
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while the Linux user-base doubles)...
+tremap = 0.000000e+00
+mainloop finished in 4 loops and 0.345627 seconds (0.086407 sec/loop)
+fft time=0.264762 s (76.603374 pc)
+fft calls=1016 
+I/O time=0.121113 s (35.041549 pc)
+Terminated.
