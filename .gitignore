@@ -1,0 +1,4 @@
+# Ignore VTK and dump files
+*.vtk
+*.dmp
+
