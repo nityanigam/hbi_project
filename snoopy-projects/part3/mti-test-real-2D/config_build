@@ -1,0 +1,48 @@
+#!/bin/bash
+
+### CHANGE ACCORDINGLY ###
+PROB="part3"
+snoopyHOME="/cephfs/home/nn339/hbi_project/snoopylmp"
+snoopyPROJ="/cephfs/home/nn339/hbi_project/snoopy-projects"
+snoopyDATA="/cephfs/home/nn339/hbi_project/snoopy-data"
+
+### NO NEED TO CHANGE ###
+current="${PWD}"
+snoopySRC="$snoopyHOME/src"
+snoopyPROB="$snoopySRC/problem/$PROB"
+echo $snoopyPROB
+
+
+mv $snoopyPROB/gvars.h $snoopyPROB/gvars.h.old
+mv $snoopyPROB/snoopy.cfg $snoopyPROB/snoopy.cfg.old
+mv $snoopySRC/initflow.c $snoopySRC/initflow.c.old
+#mv $snoopySRC/spatial_conduction.c $snoopySRC/spatial_conduction.c.old
+
+cp gvars.h snoopy.cfg ${snoopyPROB}
+cp initflow.c ${snoopySRC}
+#cp spatial_conduction.c ${snoopySRC}
+
+
+### COMPILATION OPTIONS HERE
+cd ${snoopyHOME}
+#./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} --enable-fftw-mpi
+./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} 
+#./configure CC=gcc --with-problem=${PROB} --enable-openmp
+#./configure CC=mpicc CFLAGS="-mavx512f -mavx512cd -mavx512er -mavx512pf -O3 -malign-double" --enable-mpi --enable-openmp --with-problem=${PROB} --host=x86_64
+#--enable-debug
+# ./configure CC=gcc CFLAGS="-g -g3" --with-problem=${PROB} --enable-debug
+make
+make clean && make
+
+mv $snoopyPROB/gvars.h.old $snoopyPROB/gvars.h
+mv $snoopyPROB/snoopy.cfg.old $snoopyPROB/snoopy.cfg
+mv $snoopySRC/initflow.c.old $snoopySRC/initflow.c
+#mv $snoopySRC/spatial_conduction.c.old $snoopySRC/spatial_conduction.c
+
+cp snoopy "$current"
+
+### CREATE DATA DIR ###
+relativePATH="${current//$snoopyPROJ/}"
+mkdir -p "$snoopyDATA/$relativePATH"
+mkdir -p "$snoopyDATA/$relativePATH/data"
+

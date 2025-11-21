@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH -J SNOOPY_job
+#SBATCH -o job.%j.out
+#SBATCH -e job.%j.err
+#! Number of required nodes
+#SBATCH -N 1
+#! How many MPI proc per node
+#SBATCH --ntasks-per-node=1
+#! How many openmp processes / cpus per MPI task I think
+#SBATCH -c 64
+#!How much wallclock time will be required (HH:MM:SS)
+#SBATCH --time=12:00:00
+#SBATCH --mail-type=END,FAIL
+
+module purge
+module load openmpi/5.0.3/gcc/xs76solb         
+module load fftw/3.3.10/gcc/openmpi/uco6ynba  
+
+export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
+
+
+srun ./snoopy

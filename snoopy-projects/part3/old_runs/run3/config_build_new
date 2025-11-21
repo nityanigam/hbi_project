@@ -1,0 +1,50 @@
+#!/bin/bash
+
+### USER SETTINGS ###
+PROB="part3"
+snoopyHOME="/cephfs/home/nn339/hbi_project/snoopylmp"
+snoopyPROJ="/cephfs/home/nn339/hbi_project/snoopy-projects"
+snoopyDATA="/cephfs/home/nn339/hbi_project/snoopy-data"
+
+### INTERNAL PATHS ###
+current="${PWD}"
+snoopySRC="$snoopyHOME/src"
+snoopyPROB="$snoopySRC/problem/$PROB"
+
+echo "Snoopy problem path: $snoopyPROB"
+
+### BACKUP ORIGINAL FILES ###
+mv $snoopyPROB/gvars.h $snoopyPROB/gvars.h.old
+mv $snoopyPROB/snoopy.cfg $snoopyPROB/snoopy.cfg.old
+mv $snoopySRC/initflow.c $snoopySRC/initflow.c.old
+
+### COPY MODIFIED FILES ###
+cp gvars.h snoopy.cfg ${snoopyPROB}
+cp initflow.c ${snoopySRC}
+
+### MODULE-DEPENDENT CONFIGURATION ###
+cd ${snoopyHOME}
+
+# Use MPI compiler; no MPI FFTW for single-node runs
+./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} --enable-fftw-mpi
+
+# Clean previous builds
+make clean
+
+# Compile Snoopy
+make
+
+# Restore original source files
+mv $snoopyPROB/gvars.h.old $snoopyPROB/gvars.h
+mv $snoopyPROB/snoopy.cfg.old $snoopyPROB/snoopy.cfg
+mv $snoopySRC/initflow.c.old $snoopySRC/initflow.c
+
+# Copy executable to current folder
+cp snoopy "$current"
+
+### CREATE DATA DIR ###
+relativePATH="${current//$snoopyPROJ/}"
+mkdir -p "$snoopyDATA/$relativePATH/data"
+
+echo "Build complete. Executable copied to $current"
+

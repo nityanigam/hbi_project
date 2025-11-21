@@ -1,0 +1,15 @@
+#!/bin/bash
+# Reset environment
+module purge
+
+# Load required modules
+module load openmpi/5.0.3/gcc/xs76solb
+module load fftw/3.3.10/gcc/openmpi/uco6ynba
+
+# Set FFTW path (for convenience in compiling or running Snoopy)
+#export FFTPATH=/usr/local/software/spack/spack-views/maths-2024.1/fftw-3.3.10/gcc-11.4.0/openmpi-5.0.3/uco6ynba6xiofw6bass2twcicea5btzf
+
+# (Optional) Print confirmation
+#echo "Modules loaded:"
+#module list
+#echo "FFTPATH set to: $FFTPATH"
