@@ -7,15 +7,17 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --time=01:00:00
 
+set -euo pipefail
+
 module purge
 module load gcc/9
-module load openmpi/gcc/9.3/4.0.4        
-module load fftw-3.3.8-gcc-9.2.0-fdmsymx  
+module load openmpi/gcc/9.3/4.0.4
+module load fftw-3.3.8-gcc-9.2.0-fdmsymx
+
+module list
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export OMP_PROC_BIND=close
+export OMP_PLACES=cores
 
-# Force MPI to use shared memory only
-export OMPI_MCA_btl=self,sm
-export OMPI_MCA_btl_base_verbose=0
-
-srun ./snoopy
+srun --cpu-bind=cores ./snoopy
