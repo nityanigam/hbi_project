@@ -1,0 +1,50 @@
+#!/bin/bash
+
+### CHANGE ACCORDINGLY ###
+PROB="part3"
+snoopyHOME="/home/nn339/rds/hbi_project/snoopylmp"
+snoopyPROJ="/home/nn339/rds/hbi_project/snoopy-projects"
+snoopyDATA="/home/nn339/rds/hbi_project/snoopy-data"
+
+### NO NEED TO CHANGE ###
+current="${PWD}"
+snoopySRC="$snoopyHOME/src"
+snoopyPROB="$snoopySRC/problem/$PROB"
+echo $snoopyPROB
+
+
+mv $snoopyPROB/gvars.h $snoopyPROB/gvars.h.old
+mv $snoopyPROB/snoopy.cfg $snoopyPROB/snoopy.cfg.old
+mv $snoopySRC/initflow.c $snoopySRC/initflow.c.old
+#mv $snoopySRC/spatial_conduction.c $snoopySRC/spatial_conduction.c.old
+
+cp gvars.h snoopy.cfg ${snoopyPROB}
+cp initflow.c ${snoopySRC}
+#cp spatial_conduction.c ${snoopySRC}
+
+export FFTW_DIR=/usr/local/software/spack/spack-views/rocky8-icelake-20220710/fftw-3.3.10/intel-2021.6.0/intel-oneapi-mpi-2021.6.0/uqgpuef76pscvsrakd7gwnmdki5yk6hk/
+
+### COMPILATION OPTIONS HERE
+cd ${snoopyHOME}
+./configure CC=mpiicc FFTPATH=${FFTW_DIR} --enable-openmp --enable-mpi --with-problem=${PROB} #actual run
+#./configure CC=mpiicc FFTPATH=${FFTW_DIR} --enable-openmp --enable-mpi --with-problem=mri
+#./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} --enable-fftw-mpi
+#./configure CC=gcc --with-problem=${PROB} --enable-openmp
+#./configure CC=mpicc CFLAGS="-mavx512f -mavx512cd -mavx512er -mavx512pf -O3 -malign-double" --enable-mpi --enable-openmp --with-problem=${PROB} --host=x86_64
+#--enable-debug
+# ./configure CC=gcc CFLAGS="-g -g3" --with-problem=${PROB} --enable-debug
+make
+make clean && make
+
+mv $snoopyPROB/gvars.h.old $snoopyPROB/gvars.h
+mv $snoopyPROB/snoopy.cfg.old $snoopyPROB/snoopy.cfg
+mv $snoopySRC/initflow.c.old $snoopySRC/initflow.c
+#mv $snoopySRC/spatial_conduction.c.old $snoopySRC/spatial_conduction.c
+
+cp snoopy "$current"
+
+### CREATE DATA DIR ###
+relativePATH="${current//$snoopyPROJ/}"
+mkdir -p "$snoopyDATA/$relativePATH"
+mkdir -p "$snoopyDATA/$relativePATH/data"
+

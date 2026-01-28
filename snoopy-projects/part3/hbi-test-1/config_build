@@ -22,10 +22,13 @@ cp gvars.h snoopy.cfg ${snoopyPROB}
 cp initflow.c ${snoopySRC}
 #cp spatial_conduction.c ${snoopySRC}
 
+export FFTW_DIR=/usr/local/software/spack/spack-views/rocky8-icelake-20220710/fftw-3.3.10/intel-2021.6.0/intel-oneapi-mpi-2021.6.0/uqgpuef76pscvsrakd7gwnmdki5yk6hk/
 
 ### COMPILATION OPTIONS HERE
 cd ${snoopyHOME}
-./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} --enable-fftw-mpi
+./configure CC=mpiicc FFTPATH=${FFTW_DIR} --enable-openmp --enable-mpi --with-problem=${PROB} #actual run
+#./configure CC=mpiicc FFTPATH=${FFTW_DIR} --enable-openmp --enable-mpi --with-problem=mri
+#./configure CC=mpicc --enable-mpi --enable-openmp --with-problem=${PROB} --enable-fftw-mpi
 #./configure CC=gcc --with-problem=${PROB} --enable-openmp
 #./configure CC=mpicc CFLAGS="-mavx512f -mavx512cd -mavx512er -mavx512pf -O3 -malign-double" --enable-mpi --enable-openmp --with-problem=${PROB} --host=x86_64
 #--enable-debug

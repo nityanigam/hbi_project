@@ -1,0 +1,27 @@
+#!/bin/bash
+# Reset environment
+module purge
+
+# Load required modules
+#module load gcc/9                         
+#module load openmpi/gcc/9.3/4.0.4         
+#module load fftw-3.3.8-gcc-9.2.0-fdmsymx  
+
+module load rhel8/slurm      
+module load singularity/current  
+#module load rhel8/global  
+module load cuda/11.4             
+module load vgl/2.5.1/64  
+#module load intel-oneapi-compilers/2022.1.0/gcc/b6zld2mz 
+#module load ucx/1.15.0
+#module load intel-oneapi-mpi/2021.6.0/intel/guxuvcpm
+module load rhel8/default-icl
+module load fftw/3.3.10/intel/intel-oneapi-mpi/uqgpuef7
+
+# Set FFTW path (for convenience in compiling or running Snoopy)
+#export FFTPATH=/usr/local/software/spack/spack-views/maths-2024.1/fftw-3.3.10/gcc-11.4.0/openmpi-5.0.3/uco6ynba6xiofw6bass2twcicea5btzf
+
+# (Optional) Print confirmation
+#echo "Modules loaded:"
+#module list
+#echo "FFTPATH set to: $FFTPATH"
