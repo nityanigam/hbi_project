@@ -1,0 +1,76 @@
+Loading rhel8/default-icl
+  Loading requirement: rhel8/global intel-oneapi-compilers/2022.1.0/gcc/b6zld2mz
+    ucx/1.15.0 intel-oneapi-mpi/2021.6.0/intel/guxuvcpm
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Feb  3 2026 at 22:24:54
+Using config file: MTI Turbulent convection problem.
+output dir: /home/nn339/rds/hbi_project/snoopy-data/part3/noise_param_scan/highres_1e-6.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+Using MPI with 4 process.
+Using OpenMP with 1 threads.
+(NX,NY,NZ)=	(512,4,512)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	19200.000000
+
+Vertical Boussinesq
+Reynolds_th=	1.000000
+N2=		0.000000
+OmegaT2=	-1.000000
+Reynolds_ani=	100.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000010
+Reynolds_m=	38400.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	60.000000
+Toutput_time=	0.100000
+Toutput_flow=	50.000000
+Toutput_dump=	2.000000
+output directory =	/home/nn339/rds/hbi_project/snoopy-data/part3/noise_param_scan/highres_1e-6
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (and dream of faster computers)...
+Reading velocity field
+Reading Boussinesq field
+Reading MHD field
+Restarting at t=4.000009e+01...
+tremap = 0.000000e+00
+mainloop finished in 9128 loops and 14557.705014 seconds (1.594841 sec/loop)
+fft time=9994.682576 s (68.655620 pc)
+fft calls=4120011 
+I/O time=61.056460 s (0.419410 pc)
+Time used for transpose: 4133.491742 seconds, or 28.393842 pc of total computation time
+Terminated.

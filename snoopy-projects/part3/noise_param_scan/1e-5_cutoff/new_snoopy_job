@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=1e-5-cutoff
+#SBATCH --partition=icelake
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --time=08:00:00
+##SBATCH --qos=INTR
+#SBATCH --output=snoopy_%j.out
+#SBATCH --error=snoopy_%j.err
+
+set -euo pipefail
+
+module purge
+
+module load rhel8/slurm      
+module load singularity/current  
+module load cuda/11.4             
+module load vgl/2.5.1/64  
+module load rhel8/default-icl
+module load fftw/3.3.10/intel/intel-oneapi-mpi/uqgpuef7
+
+# Run on the allocated resources
+srun ./snoopy
+# (Alternative, if you *must* use mpirun instead of srun:)
+# mpirun -np 4 ./snoopy

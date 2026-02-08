@@ -1,0 +1,8 @@
+Loading rhel8/default-icl
+  Loading requirement: rhel8/global intel-oneapi-compilers/2022.1.0/gcc/b6zld2mz
+    ucx/1.15.0 intel-oneapi-mpi/2021.6.0/intel/guxuvcpm
+*************************************************
+Critical Error in File: snoopy.c Routine: main Line: 187 
+You need NZ > 1, even if you want to do 2D simulations!.
+ Terminating.
+*************************************************
