@@ -1,0 +1,18 @@
+[cpu-q-7:2409251:0:2409251] Caught signal 11 (Segmentation fault: address not mapped to object at address 0xc0)
+==== backtrace (tid:2409251) ====
+ 0  /usr/local/software/spack/csd3/opt-2024-06-01/linux-rocky8-x86_64_v4/gcc-8.5.0/ucx-1.15.0-3odtpik4wnhzdj6fgnc5ujwcmmnx4yjl/lib/libucs.so.0(ucs_handle_error+0x294) [0x145f451847a4]
+ 1  /usr/local/software/spack/csd3/opt-2024-06-01/linux-rocky8-x86_64_v4/gcc-8.5.0/ucx-1.15.0-3odtpik4wnhzdj6fgnc5ujwcmmnx4yjl/lib/libucs.so.0(+0x2d964) [0x145f45184964]
+ 2  /usr/local/software/spack/csd3/opt-2024-06-01/linux-rocky8-x86_64_v4/gcc-8.5.0/ucx-1.15.0-3odtpik4wnhzdj6fgnc5ujwcmmnx4yjl/lib/libucs.so.0(+0x2dc08) [0x145f45184c08]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x145fd711a990]
+ 4  /lib64/libc.so.6(_IO_vfprintf+0x40) [0x145fd673b470]
+ 5  /lib64/libc.so.6(_IO_fprintf+0x98) [0x145fd6743888]
+ 6  /home/nn339/rds/hbi_project/snoopy-projects/part3/fake-2D-change-peclet/field-wrapping/./snoopy() [0x4194a6]
+ 7  /home/nn339/rds/hbi_project/snoopy-projects/part3/fake-2D-change-peclet/field-wrapping/./snoopy() [0x412c0d]
+ 8  /home/nn339/rds/hbi_project/snoopy-projects/part3/fake-2D-change-peclet/field-wrapping/./snoopy() [0x404088]
+ 9  /lib64/libc.so.6(__libc_start_main+0xe5) [0x145fd670f7e5]
+10  /home/nn339/rds/hbi_project/snoopy-projects/part3/fake-2D-change-peclet/field-wrapping/./snoopy() [0x4036ee]
+=================================
+srun: error: cpu-q-7: task 0: Segmentation fault
+slurmstepd: error: *** JOB 22473246 ON cpu-q-7 CANCELLED AT 2026-02-11T04:10:57 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 22473246.0 ON cpu-q-7 CANCELLED AT 2026-02-11T04:10:57 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.

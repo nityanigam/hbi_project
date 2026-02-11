@@ -22,9 +22,9 @@ Institute of Planetology and Astrophysics of Grenoble, France
 This program comes with ABSOLUTELY NO WARRANTY;
 This is free software, and you are welcome to
 redistribute it under certain conditions.
-Compiled on Feb  9 2026 at 15:06:36
+Compiled on Feb 10 2026 at 20:12:11
 Using config file: MTI Turbulent convection problem.
-output dir: /home/nn339/rds/hbi_project/snoopy-data/part3/change-peclet/field-wrapping.
+output dir: /home/nn339/rds/hbi_project/snoopy-data/part3/fake-2D-change-peclet/small-N.
 *************************************************
 Warning in File: read_config.c Routine: read_config Line: 248 
 You did not provide any variable in profile outputs
@@ -32,44 +32,46 @@ Resuming execution...
 *************************************************
 ***********************************************************
 Code parameters:
-MPI disabled
-Using OpenMP with 8 threads.
-(NX,NY,NZ)=	(256,256,1)
+Using MPI with 4 process.
+Using OpenMP with 1 threads.
+(NX,NY,NZ)=	(256,4,256)
 (LX,LY,LZ)=	(1.000000,1.000000,1.000000)
 Reynolds=	10000.000000
 
-Horizontal (x) Boussinesq
+Vertical Boussinesq
 Reynolds_th=	1.000000
-N2=		0.500000
+N2=		0.100000
 OmegaT2=	-1.000000
-Reynolds_ani=	10.000000
+Reynolds_ani=	1000.000000
 
 MHD enabled
 BX0=		0.000000
 BY0=		0.000000
-BZ0=		0.000000
+BZ0=		0.000010
 Reynolds_m=	10000.000000
 No Shear
 
 T_initial=	0.000000
 T_final=	100.000000
 Toutput_time=	0.100000
-Toutput_flow=	100.000000
+Toutput_flow=	24.000000
 Toutput_dump=	2.000000
-output directory =	/home/nn339/rds/hbi_project/snoopy-data/part3/change-peclet/field-wrapping
+output directory =	/home/nn339/rds/hbi_project/snoopy-data/part3/fake-2D-change-peclet/small-N
 Using Restart Dump
 Using Antialiasing 2/3 Rule
 ***********************************************************
 Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
 Calling mainloop... touch status, output, dump or stop to print more information.
-Please wait (your call is important to us)...
-Reading velocity field
-Reading Boussinesq field
-Reading MHD field
-Restarting at t=5.000000e+01...
+Please wait (and dream of faster computers)...
 tremap = 0.000000e+00
-mainloop finished in 56600 loops and 2893.613839 seconds (0.051124 sec/loop)
-fft time=1042.778877 s (36.037251 pc)
-fft calls=17684224 
-I/O time=32.016184 s (1.106443 pc)
+mainloop finished in 3711 loops and 693.914065 seconds (0.186988 sec/loop)
+fft time=410.933604 s (59.219668 pc)
+fft calls=1036471 
+I/O time=89.159049 s (12.848716 pc)
+Time used for transpose: 164.659326 seconds, or 23.729066 pc of total computation time
 Terminated.

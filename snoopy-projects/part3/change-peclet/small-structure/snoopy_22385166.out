@@ -1,3 +1,0 @@
-Loading rhel8/default-icl
-  Loading requirement: rhel8/global intel-oneapi-compilers/2022.1.0/gcc/b6zld2mz
-    ucx/1.15.0 intel-oneapi-mpi/2021.6.0/intel/guxuvcpm
