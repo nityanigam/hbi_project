@@ -1,0 +1,76 @@
+Loading rhel8/default-icl
+  Loading requirement: rhel8/global intel-oneapi-compilers/2022.1.0/gcc/b6zld2mz
+    ucx/1.15.0 intel-oneapi-mpi/2021.6.0/intel/guxuvcpm
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Feb 20 2026 at 12:18:14
+Using config file: MTI Turbulent convection problem.
+output dir: /home/nn339/rds/hbi_project/snoopy-data/part3/change-peclet/movie-big-Pe.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 8 threads.
+(NX,NY,NZ)=	(256,256,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		2.000000
+OmegaT2=	-1.000000
+Reynolds_ani=	10000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	100.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/home/nn339/rds/hbi_project/snoopy-data/part3/change-peclet/movie-big-Pe
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while X11 grows by another kilobyte)...
+tremap = 0.000000e+00
+mainloop finished in 899 loops and 96.339200 seconds (0.107163 sec/loop)
+fft time=16.911586 s (17.554210 pc)
+fft calls=303082 
+I/O time=78.470648 s (81.452460 pc)
+Terminated.
