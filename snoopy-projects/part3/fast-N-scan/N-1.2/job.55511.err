@@ -1,0 +1,7 @@
+srun: error: sw-gen01: tasks 0,7,9,11: Exited with exit code 1
+srun: error: sw-gen01: tasks 3-4,6,8,10,13: Exited with exit code 1
+srun: error: sw-gen01: task 12: Exited with exit code 1
+srun: error: sw-gen01: task 1: Exited with exit code 1
+srun: error: sw-gen01: task 2: Exited with exit code 1
+srun: error: sw-gen01: task 5: Exited with exit code 1
+srun: error: sw-gen01: task 15: Exited with exit code 1

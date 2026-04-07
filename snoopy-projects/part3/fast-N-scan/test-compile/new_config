@@ -1,0 +1,8 @@
+module purge
+module load gcc-runtime/11.4.0/gcc/s4m43s2g
+module load openmpi   # or your cluster's MPI module
+
+export CC=mpicc
+export CFLAGS="-std=gnu99"
+
+./configure --with-problem=${PROB} --enable-openmp --enable-mpi --enable-fftw-mpi

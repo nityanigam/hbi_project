@@ -1,0 +1,297 @@
+Loading openmpi/5.0.3/gcc/2jvxbhe6
+  Loading requirement: glibc/2.35/gcc/2qcwpjkr gcc-runtime/11.4.0/gcc/s4m43s2g
+    libiconv/1.17/gcc/bx7po7zd xz/5.4.6/gcc/n7w5vgic zlib-ng/2.1.6/gcc/lhsedjui
+    libxml2/2.10.3/gcc/7c4bshqs cuda/12.6.3/gcc/leehydd5
+    libpciaccess/0.17/gcc/jo65dn3s ncurses/6.5/gcc/xudjifpz
+    oneapi-level-zero/1.14/gcc/5lkebaeb hwloc/2.9.1/gcc/2hfhag2h
+    openssl/3.3.0/gcc/ckee37gw libevent/2.1.12/gcc/oddlihjn
+    numactl/2.0.14/gcc/32nffflw openssh/8.9p1/gcc/kd4zvl2e
+    slurm/25.11.0/gcc/4p34nzf7 ucx/1.18.0/gcc/osfyrf7r
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Mar 25 2026 at 16:01:37
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 16 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.300000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	1000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (at least you are not on hold)...
+Reading velocity field
+Reading Boussinesq field
+Reading MHD field
+Restarting at t=9.620030e+02...
+tremap = 0.000000e+00
+mainloop finished in 8221 loops and 2297.312812 seconds (0.279444 sec/loop)
+fft time=1768.805122 s (76.994527 pc)
+fft calls=1634397 
+I/O time=107.856115 s (4.694882 pc)
+Terminated.
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Mar 25 2026 at 16:01:37
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 16 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.300000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	1000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (at least you are not on hold)...
+Reading velocity field
+Reading Boussinesq field
+Reading MHD field
+Restarting at t=9.620030e+02...
+tremap = 0.000000e+00
+mainloop finished in 8173 loops and 2314.057472 seconds (0.283134 sec/loop)
+fft time=1789.612738 s (77.336573 pc)
+fft calls=1621293 
+I/O time=110.647164 s (4.781522 pc)
+Terminated.
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Mar 25 2026 at 16:01:37
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 16 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.300000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	1000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (at least you are not on hold)...
+Reading velocity field
+Reading Boussinesq field
+Reading MHD field
+Restarting at t=9.620030e+02...
+tremap = 0.000000e+00
+mainloop finished in 8227 loops and 2357.711667 seconds (0.286582 sec/loop)
+fft time=1810.475032 s (76.789501 pc)
+fft calls=1632861 
+I/O time=105.425814 s (4.471531 pc)
+Terminated.
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Mar 25 2026 at 16:01:37
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 16 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.300000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	1000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/N-scan/N-0.3
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (at least you are not on hold)...
+Reading velocity field
+Reading Boussinesq field
+Reading MHD field
+Restarting at t=9.620030e+02...
+tremap = 0.000000e+00
+mainloop finished in 8365 loops and 2361.262227 seconds (0.282279 sec/loop)
+fft time=1819.658557 s (77.062960 pc)
+fft calls=1658957 
+I/O time=109.900020 s (4.654291 pc)
+Terminated.

@@ -1,0 +1,7 @@
+srun: error: sw-gen04: tasks 0-1: Exited with exit code 1
+srun: error: sw-gen04: tasks 3,5-9,11-15: Exited with exit code 1
+srun: error: sw-gen04: task 10: Exited with exit code 1
+srun: error: sw-gen04: task 2: Exited with exit code 1
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+[2026-04-05T02:04:20.019] error: *** JOB 55501 ON sw-gen04 CANCELLED AT 2026-04-05T02:04:20 DUE TO TIME LIMIT ***
+[2026-04-05T02:04:20.032] error: *** STEP 55501.0 ON sw-gen04 CANCELLED AT 2026-04-05T02:04:20 DUE TO TIME LIMIT ***

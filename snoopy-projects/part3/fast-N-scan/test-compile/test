@@ -1,0 +1,10 @@
+cat > test_cexp.c <<'EOF'
+#include <complex.h>
+int main(void) {
+    double complex z = 1.0 + 2.0*I;
+    z = cexp(z);
+    return 0;
+}
+EOF
+
+mpicc -std=gnu99 test_cexp.c -lm -o test_cexp

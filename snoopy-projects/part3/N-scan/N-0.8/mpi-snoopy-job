@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=N-0.8
+#SBATCH --output=job.%j.out
+#SBATCH --error=job.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=16
+#SBATCH --time=08:00:00
+
+module purge
+module load openmpi/5.0.3/gcc/2jvxbhe6
+module load fftw/3.3.10/gcc/openmpi/oimqp43z
+
+export OMP_NUM_THREADS=16
+
+srun ./snoopy

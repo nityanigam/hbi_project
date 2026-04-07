@@ -1,0 +1,1208 @@
+Loading openmpi/5.0.3/gcc/2jvxbhe6
+  Loading requirement: glibc/2.35/gcc/2qcwpjkr gcc-runtime/11.4.0/gcc/s4m43s2g
+    libiconv/1.17/gcc/bx7po7zd xz/5.4.6/gcc/n7w5vgic zlib-ng/2.1.6/gcc/lhsedjui
+    libxml2/2.10.3/gcc/7c4bshqs cuda/12.6.3/gcc/leehydd5
+    libpciaccess/0.17/gcc/jo65dn3s ncurses/6.5/gcc/xudjifpz
+    oneapi-level-zero/1.14/gcc/5lkebaeb hwloc/2.9.1/gcc/2hfhag2h
+    openssl/3.3.0/gcc/ckee37gw libevent/2.1.12/gcc/oddlihjn
+    numactl/2.0.14/gcc/32nffflw openssh/8.9p1/gcc/kd4zvl2e
+    slurm/25.11.0/gcc/4p34nzf7 ucx/1.18.0/gcc/osfyrf7r
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump.dmp not found in current directory.
+check_file_size: File dump.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 272 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump_write.dmp not found in current directory.
+check_file_size: File dump_write.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 257 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+tremap = 0.000000e+00
+check_file_size: File /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8/dump.dmp not found in current directory.
+check_file_size: File dump.dmp not found in current directory.
+Error checking the dump size, got -1 instead of 14737468
+*************************************************
+Critical Error in File: output/output_dump.c Routine: output_dump Line: 272 
+Error writing dump file, check your quotas
+ Terminating.
+*************************************************
+
+          .o.				        
+          |  |    _   ,		        
+        .',  L.-'` `\ ||	        
+      __\___,|__--,__`_|__         
+     |    %     `=`       |        
+     | ___%_______________|        
+     |    `               |         
+     | -------------------|         
+     |____________________|         
+       |~~~~~~~~~~~~~~~~|           
+       | ---------------|  ,        
+   \|  | _______________| / /      
+\. \,\\|, .   .   /,  / |///, / 
+
+The Snoopy code v6.0
+Copyright (c) 2004-2011 Geoffroy Lesur
+Institute of Planetology and Astrophysics of Grenoble, France
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to
+redistribute it under certain conditions.
+Compiled on Apr  2 2026 at 20:07:35
+Using config file: MTI Turbulent convection problem.
+output dir: /cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8.
+*************************************************
+Warning in File: read_config.c Routine: read_config Line: 248 
+You did not provide any variable in profile outputs
+Resuming execution...
+*************************************************
+***********************************************************
+Code parameters:
+MPI disabled
+Using OpenMP with 4 threads.
+(NX,NY,NZ)=	(512,512,1)
+(LX,LY,LZ)=	(1.000000,1.000000,1.000000)
+Reynolds=	100000.000000
+
+Horizontal (x) Boussinesq
+Reynolds_th=	1.000000
+N2=		0.800000
+OmegaT2=	-1.000000
+Reynolds_ani=	1000.000000
+
+MHD enabled
+BX0=		0.000000
+BY0=		0.000000
+BZ0=		0.000000
+Reynolds_m=	100000.000000
+No Shear
+
+T_initial=	0.000000
+T_final=	5000.000000
+Toutput_time=	0.100000
+Toutput_flow=	1.000000
+Toutput_dump=	2.000000
+output directory =	/cephfs/store/astro-hl278/nn339/hbi_project/snoopy-data/part3/fast-N-scan/N-0.8
+Using Restart Dump
+Using Antialiasing 2/3 Rule
+***********************************************************
+Initializing...
+*************************************************
+Warning in File: output/output.c Routine: init_output Line: 65 
+No restart dump found. I will set restart=false for this run.
+Resuming execution...
+*************************************************
+Calling mainloop... touch status, output, dump or stop to print more information.
+Please wait (while you decide where you want to go tomorrow)...
+tremap = 0.000000e+00
+mainloop finished in 626304 loops and 103694.981582 seconds (0.165567 sec/loop)
+fft time=69683.524506 s (67.200479 pc)
+fft calls=140570958 
+I/O time=10153.600200 s (9.791795 pc)
+Terminated.
