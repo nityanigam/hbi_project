@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+[2026-04-09T17:15:29.454] error: *** JOB 55961 ON sw-gen02 CANCELLED AT 2026-04-09T17:15:29 DUE to SIGNAL Terminated ***
+[2026-04-09T17:15:29.496] error: *** STEP 55961.0 ON sw-gen02 CANCELLED AT 2026-04-09T17:15:29 DUE to SIGNAL Terminated ***
