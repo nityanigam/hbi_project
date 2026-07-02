@@ -1,0 +1,9 @@
+Loading openmpi/5.0.3/gcc/2jvxbhe6
+  Loading requirement: glibc/2.35/gcc/2qcwpjkr gcc-runtime/11.4.0/gcc/s4m43s2g
+    libiconv/1.17/gcc/bx7po7zd xz/5.4.6/gcc/n7w5vgic zlib-ng/2.1.6/gcc/lhsedjui
+    libxml2/2.10.3/gcc/7c4bshqs cuda/12.6.3/gcc/leehydd5
+    libpciaccess/0.17/gcc/jo65dn3s ncurses/6.5/gcc/xudjifpz
+    oneapi-level-zero/1.14/gcc/5lkebaeb hwloc/2.9.1/gcc/2hfhag2h
+    openssl/3.3.0/gcc/ckee37gw libevent/2.1.12/gcc/oddlihjn
+    numactl/2.0.14/gcc/32nffflw openssh/8.9p1/gcc/kd4zvl2e
+    slurm/25.11.0/gcc/4p34nzf7 ucx/1.18.0/gcc/osfyrf7r

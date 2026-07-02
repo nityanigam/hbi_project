@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+[2026-05-10T19:27:12.012] error: *** STEP 85316.0 ON sw-gen01 CANCELLED AT 2026-05-10T19:27:12 DUE TO TIME LIMIT ***
+[2026-05-10T19:27:12.013] error: *** JOB 85316 ON sw-gen01 CANCELLED AT 2026-05-10T19:27:12 DUE TO TIME LIMIT ***
