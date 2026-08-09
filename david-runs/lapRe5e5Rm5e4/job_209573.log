@@ -1,0 +1,21 @@
+v0000.vtk: 0 worms
+v0010.vtk: 7 worms
+v0020.vtk: 8 worms
+v0030.vtk: 11 worms
+v0040.vtk: 16 worms
+v0050.vtk: 13 worms
+v0060.vtk: 7 worms
+v0070.vtk: 6 worms
+v0080.vtk: 5 worms
+v0090.vtk: 2 worms
+v0100.vtk: 4 worms
+v0110.vtk: 6 worms
+v0120.vtk: 5 worms
+v0130.vtk: 6 worms
+v0140.vtk: 6 worms
+v0150.vtk: 6 worms
+v0160.vtk: 5 worms
+v0170.vtk: 7 worms
+
+Analyzed 18 files -> worm_results/
+Detected 0 merges and 0 splits:

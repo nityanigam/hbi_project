@@ -1,0 +1,57 @@
+v0000.vtk: 0 worms
+v0010.vtk: 0 worms
+v0020.vtk: 2 worms
+v0030.vtk: 3 worms
+v0040.vtk: 4 worms
+v0050.vtk: 1 worms
+v0060.vtk: 1 worms
+v0070.vtk: 2 worms
+v0080.vtk: 0 worms
+v0090.vtk: 0 worms
+v0100.vtk: 0 worms
+v0110.vtk: 1 worms
+v0120.vtk: 0 worms
+v0130.vtk: 0 worms
+v0140.vtk: 1 worms
+v0150.vtk: 1 worms
+v0160.vtk: 2 worms
+v0170.vtk: 2 worms
+v0180.vtk: 5 worms
+v0190.vtk: 7 worms
+v0200.vtk: 10 worms
+v0210.vtk: 11 worms
+v0220.vtk: 10 worms
+v0230.vtk: 10 worms
+v0240.vtk: 10 worms
+v0250.vtk: 10 worms
+v0260.vtk: 10 worms
+v0270.vtk: 10 worms
+v0280.vtk: 10 worms
+v0290.vtk: 10 worms
+v0300.vtk: 7 worms
+v0310.vtk: 7 worms
+v0320.vtk: 7 worms
+v0330.vtk: 7 worms
+v0340.vtk: 7 worms
+v0350.vtk: 7 worms
+v0360.vtk: 7 worms
+v0370.vtk: 7 worms
+v0380.vtk: 7 worms
+v0390.vtk: 7 worms
+v0400.vtk: 7 worms
+v0410.vtk: 7 worms
+v0420.vtk: 7 worms
+v0430.vtk: 7 worms
+v0440.vtk: 7 worms
+v0450.vtk: 7 worms
+v0460.vtk: 7 worms
+v0470.vtk: 13 worms
+v0480.vtk: 13 worms
+v0490.vtk: 14 worms
+v0500.vtk: 14 worms
+
+Analyzed 51 files -> worm_results/
+Detected 1 merges and 2 splits:
+  frame   50: merge [np.int64(1), np.int64(3)] -> [np.int32(1)]
+  frame   70: split [np.int32(1)] -> [np.int64(1), np.int64(2)]
+  frame  480: split [np.int32(10)] -> [np.int64(9), np.int64(10)]

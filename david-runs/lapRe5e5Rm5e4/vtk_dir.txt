@@ -1,0 +1,1 @@
+/cephfs/store/astro-hl278/dnh26/hbi_snoopy/runs/03_alpha30_vertical_2d_to_3d/hbi3d_R1p2_vertical_byfield_lapRe5e5Rm5e4_3dinit0p1K2d_B0_0p01_box0p25_aspect2_start0/data/

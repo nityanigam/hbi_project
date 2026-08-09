@@ -1,0 +1,2 @@
+/cephfs/store/astro-hl278/nn339/hbi_project/david-runs/lapRe5e5Rm5e4/worm_tracking.py:331: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  axes[0].legend(loc="best", fontsize=8)
