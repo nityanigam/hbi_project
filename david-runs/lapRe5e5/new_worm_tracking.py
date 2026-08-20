@@ -384,9 +384,9 @@ def main():
 
     with open("vtk_dir.txt") as f:
         vtk_dir = f.read().strip()
-    print(vtk_dir)
+    #print(vtk_dir)
     paths = sorted(glob.glob(str(Path(vtk_dir) / args.pattern)), key=frame_index)
-    print(paths)
+    #print(paths)
     if not paths:
         raise SystemExit(f"No files match {args.pattern!r}")
 
