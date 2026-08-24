@@ -1,0 +1,11 @@
+peak k (argmax of k*E), averaged over last 50 timesteps (t = 290.2 to 300)
+
+kinetic_energy_x                    k_peak = 125.664
+kinetic_energy_y                    k_peak = 56.5487
+kinetic_energy_z                    k_peak = 113.097
+magnetic_fluctuation_energy_x       k_peak = 125.664
+magnetic_fluctuation_energy_y       k_peak = 6.28319
+magnetic_fluctuation_energy_z       k_peak = 138.23
+theta_variance_x                    k_peak = 125.664
+theta_variance_y                    k_peak = 12.5664
+theta_variance_z                    k_peak = 188.496
