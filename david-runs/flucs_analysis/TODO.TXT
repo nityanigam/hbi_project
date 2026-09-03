@@ -1,0 +1,1 @@
+instead of reporting k_max, integrate over k weighted by E and then divide by total energy to get a length scale. do the same thing with 2pi/k, see which gets better results.
